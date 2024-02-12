@@ -1,38 +1,158 @@
 .App {
   text-align: center;
+  font-family: 'Didot', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: grey;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.MobileApp {
+  text-align: center;
+  font-family: 'Didot', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  display: grid;
+  grid-template-columns: 3fr 97fr 3fr;
+  grid-gap: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+} 
+
+.container2 {
+  display: grid;
+  grid-template-columns: 50fr 50fr;
+} 
+
+.rowcontainer1 {
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-bottom: 0;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.rowcontainer2 {
+  text-align: left;
+}
+
+.rowcontainer2mobile {
+  margin-bottom: 150px;
+}
+
+.header {
+  font-size: xx-large;
+  color: grey;
+}
+
+.subheading {
+  margin-bottom: 25px;
+}
+
+.subheadingmobile {
+  margin-bottom: 25px;
+  margin-top: 35px;
+}
+
+#summarytext {
+  font-size: large;
+  margin-right: 50px;
+}
+
+#summarytextmobile {
+  font-size: large;
+  margin-right: 50px;
+  margin-left: 50px;
+  text-align: left;
+
+}
+
+#subheadingtextmobile{
+  font-size: 30px;
+  font-weight: bolder;
+  color: grey;
+  text-align: center;
+}
+
+#yeartext1 {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 30px;
+  color: grey;
 }
 
-.App-link {
-  color: #61dafb;
+#yeartext2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  color: grey;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#text {
+  font-size: 30px;
+  font-weight: 200;
+  color: grey;
 }
+
+#note {
+  font-size: 15px;
+  color: grey;
+  line-height: 0.1;
+}
+
+#notediv {
+  margin-bottom: 30px;
+}
+
+#subheadingtext {
+  font-size: 30px;
+  font-weight: bolder;
+  color: grey;
+}
+
+.nonfiction {
+  background-color: rgba(140,81,10, 0.6);
+  font-weight: bolder;
+  color: dimgrey;
+}
+
+.horror{
+  background-color: #01665e;
+  font-weight: bolder;
+  color: dimgrey;
+}
+
+.fantasy {
+  background-color: #c7eae5;
+  font-weight: bolder;
+  color: dimgrey;
+}
+
+.scifi {
+  background-color: #5ab4ac;
+  font-weight: bolder;
+  color: dimgrey;
+}
+
+.litfic {
+  background-color: #f6e8c3;
+  font-weight: bolder;
+  color: dimgrey;
+}
+
+.mystery {
+  background-color: #d8b365;
+  font-weight: bolder;
+  color: dimgrey;
+}
+
+.bold {
+  font-weight: bolder;
+  color: dimgrey;
+}
+
+/* "Non-fiction": "#8c510a",
+        "Fantasy": "#c7eae5",
+        "Science fiction": "#5ab4ac",
+        "Horror": "#01665e",
+        "Mystery": "#d8b365",
+        "Lit-fic": "#f6e8c3" */
