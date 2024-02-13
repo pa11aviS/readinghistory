@@ -105,7 +105,7 @@ const MobileScatterPlot = ({ width, height, indata }) => {
             // Display tooltip on mouseover
             const mytooltip = select(tooltipDiv); // Make sure ID matches the one used in the JSX
             mytooltip.transition().duration(200).style('opacity', 0.9);
-            mytooltip.html("<b>" + d.title + "</b>" + "<br>" + d.author + "<br>" + "Date read: " + d.date_read + "<br>" + "Pages: " + d.pages + "<br>" + "My rating: " + d.rating + " stars")
+            mytooltip.html("<b>" + d.title + "</b>" + "<br>" + d.author + "<br>" + "Genre:" + d.genre + "<br>" + "Date read: " + d.day + "/" + d.month + "/" + d.year + "<br>" + "Pages: " + d.pages + "<br>" + "My rating: " + d.rating + " stars")
             // tooltip.html(`Title: ${d.title}<br/>Author: ${d.author}<br/>Pages: ${d.Pages}`)
             .style("left", event.pageX + "px")
             .style("top", event.pageY - 28 + "px");}
