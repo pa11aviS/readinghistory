@@ -5,6 +5,7 @@ import React, { useEffect, useState } from 'react';
 import ScatterPlot from './ScatterPlot';
 import MobileScatterPlot from './MobileScatterPlot';
 import BarChart from './GenreBarChart';
+import NavBar from './NavBar';
 
 const formatDate = date => {
   return date ? new Date(date).toLocaleDateString() : 'Not available';
@@ -52,6 +53,7 @@ function App() {
 
   return (
     <div className="App">
+      <NavBar />
       <div className="header">
         <h1>The (not so) secret reading history</h1>
         <text id='note'>*Circle size shows page number and fullness of black outer ring shows rating. Zero stars mean I didn't give a rating.</text>
@@ -94,6 +96,7 @@ function App() {
 
   return (
     <div className="MobileApp">
+      <NavBar />
       <div className="header">
         <h1>The (not so) secret reading history</h1>
         <div id='notediv'><text id='note'>*Circle size shows page number and fullness of black outer ring shows rating. Zero stars mean I didn't give a rating.</text></div>
