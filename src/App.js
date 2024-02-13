@@ -99,7 +99,7 @@ function App() {
         <div id='notediv'><text id='note'>*Circle size shows page number and fullness of black outer ring shows rating. Zero stars mean I didn't give a rating.</text></div>
       </div>
       <div className="mobilecontainer">
-        <MobileScatterPlot width={windowWidth/2} height={windowHeight} indata={myData}></MobileScatterPlot>
+        <MobileScatterPlot width={windowWidth/2} height={windowHeight*1.5} indata={myData}></MobileScatterPlot>
         <div id='yeartext2'><text id='text'>2024</text></div>
         <div className="rowcontainer1">
         <div className="subheadingmobile"><text id='subheadingtext'>Genre tally</text></div>

@@ -53,7 +53,7 @@ const MobileScatterPlot = ({ width, height, indata }) => {
 
     const pageScale = scaleLinear()
       .domain([0, max(data, d => (isNaN(d.pages) ? 0 : d.pages))])
-      .range([0, 30]);
+      .range([0, 18]);
 
     const simulation = forceSimulation(data)
       .force("y", forceX().strength(0.8).x(d => yScale(d.date_read)))
@@ -95,7 +95,7 @@ const MobileScatterPlot = ({ width, height, indata }) => {
         .attr("stroke-dashoffset", function(d) {
             return -3.85 * Math.PI * pageScale(d.pages);  // Adjust dash offset to position the stroke
                 })
-        .style("stroke-width", 3)
+        .style("stroke-width", 2)
         .on('mouseover', handleMouseOver)
         .on('mouseout', handleMouseOut);
 
