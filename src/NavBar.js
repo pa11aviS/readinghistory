@@ -7,8 +7,8 @@ const NavBar = () => {
       <img src="./compass.png" style={{ maxHeight: '2.5rem' }} alt="Compass Logo" />
       <a href="https://octant-rho.vercel.app/" style={{ fontSize: '0.7rem', fontFamily: 'BoskaBlack', cursor: 'pointer', color: 'grey', textDecoration: 'none', '@media (min-width: 768px)': { fontSize: '1.2rem' } }}><h1>Home</h1></a>
       <a href="https://octant-rho.vercel.app/projects" style={{ fontSize: '0.7rem', fontFamily: 'BoskaBlack', cursor: 'pointer', color: 'grey', textDecoration: 'none', '@media (min-width: 768px)': { fontSize: '1.2rem' } }}><h1>Projects</h1></a>
-      <a href="https://octant-rho.vercel.app/travelogues" style={{ fontSize: '0.7rem', fontFamily: 'BoskaBlack', cursor: 'pointer', color: 'grey', textDecoration: 'none', '@media (min-width: 768px)': { fontSize: '1.2rem' } }}><h1>Travelogues</h1></a>
-      <a href="https://octant-rho.vercel.app/contact" style={{ fontSize: '0.7rem', fontFamily: 'BoskaBlack', cursor: 'pointer', color: 'grey', textDecoration: 'none', '@media (min-width: 768px)': { fontSize: '1.2rem' } }}><h1>Contact</h1></a>
+      <a href="https://octant-rho.vercel.app/blog" style={{ fontSize: '0.7rem', fontFamily: 'BoskaBlack', cursor: 'pointer', color: 'grey', textDecoration: 'none', '@media (min-width: 768px)': { fontSize: '1.2rem' } }}><h1>Travelogues</h1></a>
+      <a href="https://octant-rho.vercel.app/about" style={{ fontSize: '0.7rem', fontFamily: 'BoskaBlack', cursor: 'pointer', color: 'grey', textDecoration: 'none', '@media (min-width: 768px)': { fontSize: '1.2rem' } }}><h1>Contact</h1></a>
     </nav>
   );
 };
